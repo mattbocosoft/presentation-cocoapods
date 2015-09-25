@@ -13,7 +13,7 @@ Cococapods is a dependency manager for Swift and Objective-C Cocoa projects. It 
   i. Creating a Cocoapod  
   ii. Public Cocoapod Distribution  
   iii. Private Cocoapod Distribution  
-
+5. Further reading and resources
 
 Written by [Matthew Thomas](mailto:matt@bocosoft.net)  
 Fall 2015, CSCI 5828
