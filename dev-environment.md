@@ -1,4 +1,6 @@
 #Development Environment
 
-##Xcode
-[Xcode](https://en.wikipedia.org/wiki/Xcode) is the Integrated Development Environment ([IDE](https://en.wikipedia.org/wiki/Integrated_development_environment)) used by iOS and Mac developers. Xcode is only available on the Mac OS.
+Cococapods is used exclusively by Cocoa developers (iOS and Mac apps) therefore it can only be used on the Mac OS X operating system and with [Xcode](https://en.wikipedia.org/wiki/Xcode) Integrated Development Environment ([IDE](https://en.wikipedia.org/wiki/Integrated_development_environment)).
+
+CocoaPods is a command-line tool but a basic graphical user-interface exists [as an Xcode Plugin](https://github.com/kattrali/cocoapods-xcode-plugin).
+
