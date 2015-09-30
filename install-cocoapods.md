@@ -1,10 +1,10 @@
-###Setup
+###Install CocoaPods
 
-####Install CocoaPods
+####Install
 CocoaPods should be installed using Ruby, which comes pre-installed on Mac OS X. Run the following command at the terminal.  
 ```sudo gem install cocoapods```
 
-####Updating CocoaPods
+####Update
 CocoaPods is an open-source project in active-development and updates are frequently released. To make sure you are running the latest version of CocoaPods, you can update via Ruby Gems.  
 ```sudo gem update cocoapods```
 
