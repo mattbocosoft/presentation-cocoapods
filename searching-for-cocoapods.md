@@ -5,9 +5,9 @@ There are  (*as of 30 September 2015*) more than 11,000 CocoaPods publicly avail
 Below are a variety of options to help search for and discover CocoaPods.
 
 ##"pod search" command
-In the terminal, type 'pod search \<query\>' where \<query\> represents the keyword(s) you are searching for.
+In the terminal, type <code>'pod search \<query\>'</code> where \<query\> represents the keyword(s) you are searching for.
 
-Use **pod search --help** for more information.
+Use <code>pod search --help</code> for more information.
 
 ##CocoaPods Homepage
 The [CocoaPods homepage](https://cocoapods.org) offers a search field to look for CocoaPods by name, version, author, keywords, summary or dependencies.
