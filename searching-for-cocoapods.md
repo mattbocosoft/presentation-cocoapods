@@ -21,3 +21,6 @@ Additionally, there are some 3rd-party resources which can help you sift through
 * [What the Pod: A ranked list of the most popular CocoaPods](http://www.whatthepod.com)  
 * [Search CocoaPods @ Wantedly](http://cocoapods.wantedly.com)  
 * [Trending CocoaPods](http://trendingcocoapods.github.io)
+
+**Next Up**: [Integrating pods](integrating-pods.md)  
+...or return to the [homepage](README.md).
