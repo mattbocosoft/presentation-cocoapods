@@ -15,3 +15,7 @@ If you prefer to interact with CocoaPods using a GUI instead of the terminal, th
 
 ###CocoaPods App
 Development has recently begun () on a stand-alone app which will eventually provide full-feature support, but currently only provides very basic commands similar to the Xcode Plugin.
+
+
+**Next Up**: [Searching for pods](searching-for-cocoapods.md)  
+...or return to the [homepage](README.md).
