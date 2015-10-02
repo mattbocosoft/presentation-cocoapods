@@ -86,6 +86,6 @@ You can update your CocoaPod dependencies following the version rules specified 
 ##Uninstalling Dependencies
 To remove a dependency, simply delete the associated line in the Podfile and run ```pod install``` again.
 
-
+**Previous**: [Searching for pods](searching-for-cocoapods.md)  
 **Next Up**: [Creating a Cocoapod](creating-pods.md)  
 ...or return to the [homepage](README.md).
