@@ -1,6 +1,6 @@
 #Creating a CocoaPod
 
-Developers can create and distribute their own CocoaPods and distribute them in a number of ways both privately and publicly.
+Developers can create and distribute their own CocoaPods and distribute them in a number of ways both privately and publicly. This page will go over how to create a basic CocoaPod.
 
 Each CocoaPod requires a Podspec configuration and a license file. A Podspec describes a specific version of a CocoaPod, including *"details about where the source should be fetched from, what files to use, the build settings to apply, and other general metadata such as its name, version, and description"*.
 
