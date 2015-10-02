@@ -6,7 +6,7 @@ CococaPods is a dependency manager for Swift and Objective-C Cocoa projects. Coc
 2. [Installing CocoaPods](install-cocoapods.md)  
 3. [Searching for pods](searching-for-cocoapods.md)  
 4. [Integrating pods](integrating-pods.md)  
-5. Creating a Cocoapod  
+5. [Creating a Cocoapod](creating-pods.md)  
 6. CocoaPod Distribution  
 7. [Further reading and resources](Further-reading-and-resources.md)  
 
