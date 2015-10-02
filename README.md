@@ -26,7 +26,7 @@ Anyone can use CocoaPods to bundle and share their code with other developers.
 1. [Creating a Cocoapod](creating-pods.md)  
 2. [CocoaPod Distribution](distributing-pods.md)  
 
-Check out these [resources and tutorials for further reading](Further-reading-and-resources.md)  .
+Check out these [resources and tutorials for further reading](Further-reading-and-resources.md).  
 
 Written by [Matthew Thomas](mailto:matt@bocosoft.net)  
 Fall 2015, CSCI 5828
