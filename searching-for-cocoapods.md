@@ -24,5 +24,6 @@ Additionally, there are some 3rd-party resources which can help you sift through
 * [Search CocoaPods @ Wantedly](http://cocoapods.wantedly.com)  
 * [Trending CocoaPods](http://trendingcocoapods.github.io)
 
+**Previous**: [Installing CocoaPods](install-cocoapods.md)  
 **Next Up**: [Integrating pods](integrating-pods.md)  
 ...or return to the [homepage](README.md).
