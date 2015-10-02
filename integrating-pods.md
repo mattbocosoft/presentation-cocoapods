@@ -2,20 +2,37 @@
 
 By default, CocoaPods use Xcode workspaces instead of Xcode projects. So before you do anything, close the Xcode project you are working in.  
 
-##Create the Podfile
+##Create a Podfile
 At the terminal, <code>cd</code> into the root directory of your project. You will need to create a file called **'Podfile'** (with no file-type extension). This can be done manually (<code>touch Podfile</code>) or by running the command <code>pod init</code>.  
 
-**'Podfile'** will act as your project's CocoaPod configuration. Here you will specify your project settings and dependencies. For now we can leave this blank.
+**'Podfile'** will act as your project's CocoaPod configuration. Here you will specify your project settings and dependencies.  
 
-##Set-up the workspace
-Now that you have a **'Podfile'** in place, run <code>pod install</code> at the terminal to generate the project workspace. From now on, open up the workspace file instead of the project file.
+##Target Platform
+Open the Podfile in text edit or Xcode, and begin by adding the target platform on the first line. This will be used to ensure that the dependencies are compatible.  
 
-When you open up the workspace file in Xcode, you should now see two sub-projects in the workspace. Expand the **Pods** workspace to reveal that the **'Podfile'** has been referenced. Click on **'Podfile'** to begin editing it. Define the project platform on the first line of the file. For a project targeting iOS, this would be:  
-<code>platform :ios, "7.0"</code>
+For a project targeting iOS, this would be:  
+```platform :ios, '8.0'```
+
+For a project targeting OS X, this woudl be:
+```platform :osx, '10.11'```
+
+If you'd like to support multiple platforms, then you might write something like this:
+
+```
+target :ios do
+    platform :ios, '7.0'
+    pod 'RestKit'
+end
+
+target :osx do
+    platform :osx, '10.10'
+    pod 'RestKit'
+end
+```
 
 Next you can begin adding project dependencies.
 
-##Define project dependencies
+##Project Dependencies
 Once you've [found](searching-for-cocoapods.md) a CocoaPod you'd like to integrate, add it to the Podfile using its name.
 
 *Integrate the latest version of RestKit*  
@@ -23,7 +40,7 @@ Once you've [found](searching-for-cocoapods.md) a CocoaPod you'd like to integra
 
 The Podfile can have many dependencies. Each pod should be placed on its own line.
 
-##Specifying dependency versions
+###Dependency versions
 
 If your projects depends on a specific version of a CocoaPod, the Podfile can be used to restrict integration of the CocoaPod to that version.
 
@@ -42,11 +59,22 @@ Podfile supports the use of an 'optimistic operator' to allow only the last vers
 
 If a the Pod conforms to [Semantic Versioning](https://github.com/mattbocosoft/presentation-gitflow-and-semanticversioning), using the 'optimistic operator' to allow the minor and patch version to increment, but not the major version, is a good way to ensure that the project integrates the latest version the dependency that maintains backwards compatibility.
 
+Here is an example of how your Podfile might look:
+
+```
+platform :ios, "7.0"
+
+pod "AFNetworking"
+pod 'NSDate+TimeAgo'
+```
+
 ##Installing Dependencies
-Once you've added the dependencies, run the installation command on the terminal within the root directory of the project:  
+Now that you have a **'Podfile'** in place and added the project dependencies, head back to the terminal and run the installation command within the root directory of the project:  
 ```pod install```
 
-This command will download the CocoaPod dependencies and integrate them directly into the the workspace.
+This command will generate a new workspace file by default, fetch the CocoaPod dependencies' source code and integrate them directly into the the workspace. The ```pod install``` command also takes care of all project settings like linker flags, search paths, and headers.
+
+From now on, you use the workspace file to open up your project. When you open up the workspace file in Xcode, you should now see two sub-projects in the workspace. Expand the **Pods** workspace to reveal that the **'Podfile'** has been referenced.
 
 ##Updating Dependencies
 You can update your CocoaPod dependencies following the version rules specified in the Podfile by running ```pod update```. This command will check the master CocoaPod Podspec repository, and any custom Podspec respositories you may have specified, for any updates to your dependencies, download them, and install them in your workspace.
