@@ -1,8 +1,7 @@
 # Cocoapods Dependency Manager
 
-CococaPods is a dependency manager for Swift and Objective-C Cocoa projects.
+CococaPods is a dependency manager for Swift and Objective-C Cocoa projects. CocoaPods automatically handles many workflows that developers previously needed to perform manually, including:  
 
-CocoaPods automatically handles many workflows that developers previously needed to perform manually, including:  
 * Fetch source code
 * Recursively Resolve and merge dependencies
 * Integrates source code, linker flags, library paths, header paths, etc.
@@ -23,7 +22,7 @@ Anyone can use CocoaPods to bundle and share their code with other developers.
 1. [Creating a Cocoapod](creating-pods.md)  
 2. CocoaPod Distribution  
 
-If you are interested in CocoaPods, please check out the [resources and tutorials page for further reading](Further-reading-and-resources.md)  .
+Check out these [resources and tutorials for further reading](Further-reading-and-resources.md)  .
 
 Written by [Matthew Thomas](mailto:matt@bocosoft.net)  
 Fall 2015, CSCI 5828
