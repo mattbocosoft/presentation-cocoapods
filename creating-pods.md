@@ -12,6 +12,8 @@ You can generate a Podspec by running the following command at the terminal:
 
 This command will generate a Podspec stub (Name-of-Pod.podspec) which can be filled out with the specifics of your CocoaPod.
 
+There are much more advanced and powerful features that I will not go into here, but you can read more about the [Podspec syntax](http://guides.cocoapods.org/syntax/podspec.html).
+
 **Previous**: [Integrating pods](integrating-pods.md)  
 **Next Up**: [CocoaPod Distribution](distributing-pods.md)  
 ...or return to the [homepage](README.md).
