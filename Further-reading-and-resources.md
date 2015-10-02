@@ -1,7 +1,5 @@
 # Further Reading and Resources
 
-If you are further interested in CocoaPods, here are some resources and tutorials for further reading.
-
 ##Tutorials
 [Ray Wenderlich: Introduction to CocoaPods Tutorial](http://www.raywenderlich.com/64546/introduction-to-cocoapods-2)  
 [Ray Wenderlich: How to Use CocoaPods with Swift](http://www.raywenderlich.com/97014/use-cocoapods-with-swift)  
