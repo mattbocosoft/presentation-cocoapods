@@ -10,6 +10,7 @@ CococaPods is a dependency manager for Swift and Objective-C Cocoa projects. Coc
   - Updating dependencies
   - Removing dependencies
 
+###Consuming CocoaPods
 CocoaPods enables software developers to quickly and easily integrate 3rd-party libraries, called Pods.
 
 1. [Development Environment](dev-environment.md)  
@@ -17,6 +18,7 @@ CocoaPods enables software developers to quickly and easily integrate 3rd-party 
 3. [Searching for pods](searching-for-cocoapods.md)  
 4. [Integrating pods](integrating-pods.md)  
 
+###Producing CocoaPods
 Anyone can use CocoaPods to bundle and share their code with other developers.
 
 1. [Creating a Cocoapod](creating-pods.md)  
