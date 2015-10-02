@@ -5,7 +5,7 @@ By default, CocoaPods use Xcode workspaces instead of Xcode projects. So before 
 ##Create a Podfile
 At the terminal, <code>cd</code> into the root directory of your project. You will need to create a file called **'Podfile'** (with no file-type extension). This can be done manually (<code>touch Podfile</code>) or by running the command <code>pod init</code>.  
 
-**'Podfile'** will act as your project's CocoaPod configuration. Here you will specify your project settings and dependencies.  
+The Podfile is a Ruby document which acts as your project's CocoaPod configuration. Here you will specify your project settings and dependencies.  
 
 ##Target Platform
 Open the Podfile in text edit or Xcode, and begin by adding the target platform on the first line. This will be used to ensure that the dependencies are compatible.  
