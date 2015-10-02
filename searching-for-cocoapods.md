@@ -12,6 +12,9 @@ Use <code>pod search --help</code> for more information.
 ##CocoaPods Homepage
 The [CocoaPods homepage](https://cocoapods.org) offers a search field to look for CocoaPods by name, version, author, keywords, summary or dependencies.
 
+##Looking for Podspecs
+Keep an eye out for Podspecs in the root directory of libraries you would like to use. CocoaPods is fast becoming the standard method for Cocoa Dependency Management, so most popular libraries offer a Podspec.
+
 ##Other sources
 Additionally, there are some 3rd-party resources which can help you sift through the almost 12,000 CocoaPods currently available.
 
