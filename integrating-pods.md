@@ -59,6 +59,10 @@ Podfile supports the use of an 'optimistic operator' to allow only the last vers
 
 If a the Pod conforms to [Semantic Versioning](https://github.com/mattbocosoft/presentation-gitflow-and-semanticversioning), using the 'optimistic operator' to allow the minor and patch version to increment, but not the major version, is a good way to ensure that the project integrates the latest version the dependency that maintains backwards compatibility.
 
+If you want to use the latest commit of a CocoaPod, you can use the :head flag.
+
+```pod 'GoogleAnalytics', :head```
+
 Here is an example of how your Podfile might look:
 
 ```
