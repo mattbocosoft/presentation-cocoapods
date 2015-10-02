@@ -10,6 +10,8 @@ CococaPods is a dependency manager for Swift and Objective-C Cocoa projects. Coc
   - Updating dependencies
   - Removing dependencies
 
+CocoaPods has becoming the standard for dependency management, and even Google embraced it as their standard for delivering tools to iOS developers.
+
 ##Consuming CocoaPods
 CocoaPods enables software developers to quickly and easily integrate 3rd-party libraries, called Pods.
 
