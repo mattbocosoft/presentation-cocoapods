@@ -41,3 +41,15 @@ Podfile supports the use of an 'optimistic operator' to allow only the last vers
 ```pod 'RestKit', '~> 0.2.1'```
 
 If a the Pod conforms to [Semantic Versioning](https://github.com/mattbocosoft/presentation-gitflow-and-semanticversioning), using the 'optimistic operator' to allow the minor and patch version to increment, but not the major version, is a good way to ensure that the project integrates the latest version the dependency that maintains backwards compatibility.
+
+##Installing Dependencies
+Once you've added the dependencies, run the installation command on the terminal within the root directory of the project:  
+```pod install```
+
+This command will download the CocoaPod dependencies and integrate them directly into the the workspace.
+
+##Updating Dependencies
+You can update your CocoaPod dependencies following the version rules specified in the Podfile by running ```pod update```. This command will check the master CocoaPod Podspec repository, and any custom Podspec respositories you may have specified, for any updates to your dependencies, download them, and install them in your workspace.
+
+##Uninstalling Dependencies
+To remove a dependency, simply delete the associated line in the Podfile and run ```pod install``` again.
