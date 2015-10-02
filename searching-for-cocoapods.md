@@ -9,6 +9,8 @@ In the terminal, type <code>'pod search \<query\>'</code> where \<query\> repres
 
 Use <code>pod search --help</code> for more information.
 
+![pod-search-command](images/pod-search-command.png)
+
 ##CocoaPods Homepage
 The [CocoaPods homepage](https://cocoapods.org) offers a search field to look for CocoaPods by name, version, author, keywords, summary or dependencies.
 
