@@ -22,6 +22,8 @@ Other forms of dependency management, like git submodules, are specific to sourc
 
 It's important to also be aware of what you are losing as a developer by using CocoaPods instead of its alternatives. In my experience, the biggest drawback of CocoaPods as a consumer is the loss of control over dependency content. However, if the CocoaPod in question only bundled a black-box library (*.a) instead of an open-source library, then the developer never had this control in the first place.
 
+If you are the producer of source code that no one outside of your group will be using for the forseeable future, you may want to think twice about wrapping it in a CocoaPod at least until continuous active development has slowed down.
+
 ####Modifying Pod Content within Context
 When there is a bug in a Pod, you can't just modify the Pod in context without a bit of work.  
 
