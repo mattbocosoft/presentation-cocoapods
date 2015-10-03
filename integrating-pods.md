@@ -77,9 +77,11 @@ Now that you have a **'Podfile'** in place and added the project dependencies, h
 
 This command will generate a new workspace file by default, fetch the CocoaPod dependencies' source code and integrate them directly into the the workspace. The ```pod install``` command also takes care of all project settings like linker flags, search paths, and headers. This command will create a folder called 'Pods' where the Pod code resides, as well as a file Podfile.lock which tracks the current version of the Pods installed.
 
-From now on, you use the workspace file to open up your project, so close your project file if you have it open. When you open up the workspace file in Xcode, you should now see two sub-projects in the workspace. Expand the **Pods** workspace to reveal that the **'Podfile'** has been referenced.
+From now on, you use the workspace file to open up your project, so close your project file if you have it open. When you open up the workspace file in Xcode, you should now see two sub-projects in the workspace. Expand the **Pods** project to reveal that the **'Podfile'** has been referenced.
 
-CocoaPods allows you to use a project file with subprojects instead of a workspace file by specificying the ```--no-integrate``` flag when running the pod install command.
+![Xcode Pods Project](images/Xcode-Pods-Project.png)
+
+CocoaPods allows you to use a project file with subprojects instead of a workspace file by specifying the ```--no-integrate``` flag when running the pod install command.
 
 ##Dependency Source Control
 Depending on your needs, you can choose to checkin or exclude your Pod dependencies from source control. While CocoaPods officially recommends that you checkin your Pods to source control, there are advantages to both methods.
