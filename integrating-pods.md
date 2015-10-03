@@ -132,7 +132,7 @@ Here is how the CocoaPods documentation explains what is happening behind the sc
 > Source: [https://guides.cocoapods.org/using/using-cocoapods.html](https://guides.cocoapods.org/using/using-cocoapods.html)
 
 
-##Dependency Source Control
+##Dependencies in Version Control
 Depending on your needs, you can choose to checkin or exclude your Pod dependencies from source control. While CocoaPods officially recommends that you checkin your Pods to source control, there are advantages to both methods.
 
 ####Check-in Pods to Source Control
