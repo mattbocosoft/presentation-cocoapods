@@ -18,9 +18,6 @@ Cococapods is used exclusively by Cocoa developers (iOS and Mac apps) therefore 
 
 CocoaPods is a command-line tool but a basic graphical user-interface exists [as an Xcode Plugin](https://github.com/kattrali/cocoapods-xcode-plugin).
 
-**Next Up**: [Installing CocoaPods](install-cocoapods.md)  
-...or return to the [homepage](README.md).
-
 ##Consuming CocoaPods
 CocoaPods enables software developers to quickly and easily integrate 3rd-party libraries, called Pods.
 
