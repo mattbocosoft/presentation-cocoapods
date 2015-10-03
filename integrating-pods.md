@@ -155,6 +155,15 @@ If you'd like to update only a specific Pod without touching the others currentl
 ##Uninstalling Dependencies
 To remove a dependency, simply delete the associated line in the Podfile and run ```pod install``` again.
 
+####Removing CocoaPods
+If you no longer need to use CocoaPods, you can remove it by first deleting the relevant files and folder from your project:  
+
+* Pods  
+* Podfile  
+* Podfile.lock  
+
+If the workspace file was created automatically by CocoaPods, you can delete it too and go back to using just the project file. Remove the Pods project if you are still using the workspace.
+
 **Previous**: [Searching for pods](searching-for-cocoapods.md)  
 **Next Up**: [Challenges with CocoaPods](cocoapod-challenges.md)  
 ...or return to the [homepage](README.md).
