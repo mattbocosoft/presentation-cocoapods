@@ -16,7 +16,4 @@ You can follow the [CocoaPods blog](https://blog.cocoapods.org) to get updates o
 ##Documentation
 [Cocoapods Official Guides](https://guides.cocoapods.org)
 
-##Troubleshooting
-Check out the CocoaPods [troubleshooting page](https://guides.cocoapods.org/using/troubleshooting.html) if you run into any errors during use.
-
 Return to the [homepage](README.md)
