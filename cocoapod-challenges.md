@@ -27,3 +27,7 @@ When working on a library locally or from within the context of your project, yo
 3. Point your local Podfile to the latest commit on your new fork instead of the default CocoaPod trunk.
     ```pod '[POD_NAME]', :path => '[POD_NAME]'``` (By default, path is relative to project root)
 4. Run ```pod install``` again to update the changes.
+
+**Previous**: [Integrating Pods](integrating-pods.md)  
+**Next Up**: [Creating CocoaPods](creating-pods.md)  
+...or return to the [homepage](README.md).
