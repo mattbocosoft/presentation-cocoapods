@@ -2,13 +2,34 @@
 
 Depending on who your audience is, there are several different methods to distribute your Pod to other developers and projects.
 
-##Local
+##Independent CocoaPod
 
-If you do not need to distribute your CocoaPod because you are working with it only locally, then your Podfile can point to the local CocoaPod by simply referencing its local location:
+If you do not wish to distribute your CocoaPod via a Podspec repository, you can use it as a standalone CocoaPod either locally or remotely.
+
+
+####Local
+In your project's Podfile, point to the local CocoaPod by simply referencing its local location:
 
 ```pod "MyPod" :path => 'LocalPods/MyPod'```
 
-##Public
+####Remote
+
+```pod '[PODNAME]', :git => 'https://github.com/[USERNAME]/[PODNAME].git'```
+
+##Podspec Repository
+
+Each version of a CocoaPod must have it's own Podspec. The Podspec repository hosting the Podspec will look follow this structure:  
+
+```
+[PODSPEC_REPO]  
+└── [POD_NAME]  
+        └── [VERSION]  
+                └── [POD_NAME].podspec  
+        └── [VERSION]  
+                └── [POD_NAME].podspec  
+```
+
+####Public
 
 The CocoaPods [trunk](https://guides.cocoapods.org/making/getting-setup-with-trunk) is a public git repository where developers can host their Podspecs for public consumption.  
 
@@ -28,7 +49,7 @@ Deploying will kick off a notification to online CocoaPod feeds to alert other u
 
 For more information about distributing via the public trunk, see [https://guides.cocoapods.org/making/getting-setup-with-trunk](https://guides.cocoapods.org/making/getting-setup-with-trunk).
 
-##Private
+####Private
 
 If you are part of an organization that would like to share libraries internally, then CocoaPods is great way of doing so.
 
