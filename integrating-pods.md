@@ -138,5 +138,5 @@ If you'd like to update only a specific Pod without touching the others currentl
 To remove a dependency, simply delete the associated line in the Podfile and run ```pod install``` again.
 
 **Previous**: [Searching for pods](searching-for-cocoapods.md)  
-**Next Up**: [Creating a Cocoapod](creating-pods.md)  
+**Next Up**: [Challenges with CocoaPods](cocoapod-challenges.md)  
 ...or return to the [homepage](README.md).
