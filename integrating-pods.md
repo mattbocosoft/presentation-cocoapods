@@ -1,9 +1,16 @@
 #Integrating Pods
 
 ##Create a Podfile
-At the terminal, <code>cd</code> into the root directory of your project. You will need to create a file called **'Podfile'** (with no file-type extension). This can be done manually (<code>touch Podfile</code>) or by running the command <code>pod init</code>.  
+At the terminal, <code>cd</code> into the root directory of your project. You will need to create a file called **'Podfile'** (with no file-type extension).  
 
-The Podfile is a Ruby document which acts as your project's CocoaPod configuration. Here you will specify your project settings and dependencies.  
+You can do this manually:  
+    ```$ touch Podfile```  
+
+...or by asking CocoaPods to do it for you:  
+
+    ```$ pod init```  
+
+The Podfile is a Ruby document which tells Cocoapods which libraries your project wants to use. It describes the dependencies of the target(s) of your project.  
 
 ##Target Platform
 Open the Podfile in text edit or Xcode, and begin by adding the target platform on the first line. This will be used to ensure that the dependencies are compatible.  
@@ -65,14 +72,16 @@ If you want to use a library which doesn't include a Podspec, but someone else h
 
 ```pod '[PODNAME]', :podspec => 'https://example.com/[PODNAME].podspec'```
 
-Here is an example of how your Podfile might look:
+Here is an example of how your Podfile might look if your project targets iOS 7 and needs to use two libraries; AFNetworking and NSDate+TimeAgo:  
 
 ```
 platform :ios, "7.0"
 
 pod "AFNetworking"
 pod 'NSDate+TimeAgo'
-```
+```  
+
+For more information about the Podfile, consult the CocoaPods official documentation here: [https://guides.cocoapods.org/syntax/podfile.html](https://guides.cocoapods.org/syntax/podfile.html)  
 
 ##Installing Dependencies
 Now that you have a **'Podfile'** in place and added the project dependencies, head back to the terminal and run the installation command within the root directory of the project:  
