@@ -18,7 +18,7 @@ Without dependency management, developers have to find, download, integrate and 
 
 ##Disadvantages of CocoaPods
 
-It's important to also be aware of what you are losing as a developer by using CocoaPods instead of its alternatives. In my experience, the biggest drawback of CocoaPods is the loss of ease of change to the Pod content. CocoaPods works best as a consumer of well-tested 3rd-party Pods, but 
+It's important to also be aware of what you are losing as a developer by using CocoaPods instead of its alternatives. In my experience, the biggest drawback of CocoaPods as a consumer is the loss of control over dependency content. If the dependency is a black-box library (*.a) instead of an open-source library, then the developer never had this control in the first place.
 
 ####Modifying Pod Content within Context
 When there is a bug in a Pod, you can't just modify the Pod in context without a bit of work.  
