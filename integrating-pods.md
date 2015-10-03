@@ -1,7 +1,5 @@
 #Integrating Pods
 
-By default, CocoaPods use Xcode workspaces instead of Xcode projects. So before you do anything, close the Xcode project you are working in.  
-
 ##Create a Podfile
 At the terminal, <code>cd</code> into the root directory of your project. You will need to create a file called **'Podfile'** (with no file-type extension). This can be done manually (<code>touch Podfile</code>) or by running the command <code>pod init</code>.  
 
@@ -78,7 +76,9 @@ Now that you have a **'Podfile'** in place and added the project dependencies, h
 
 This command will generate a new workspace file by default, fetch the CocoaPod dependencies' source code and integrate them directly into the the workspace. The ```pod install``` command also takes care of all project settings like linker flags, search paths, and headers.
 
-From now on, you use the workspace file to open up your project. When you open up the workspace file in Xcode, you should now see two sub-projects in the workspace. Expand the **Pods** workspace to reveal that the **'Podfile'** has been referenced.
+From now on, you use the workspace file to open up your project, so close your project file if you have it open. When you open up the workspace file in Xcode, you should now see two sub-projects in the workspace. Expand the **Pods** workspace to reveal that the **'Podfile'** has been referenced.
+
+CocoaPods allows you to use a project file with subprojects instead of a workspace file by specificying the ```--no-integrate``` flag when running the pod install command.
 
 ##Updating Dependencies
 You can update your CocoaPod dependencies following the version rules specified in the Podfile by running ```pod update```. This command will check the master CocoaPod Podspec repository, and any custom Podspec respositories you may have specified, for any updates to your dependencies, download them, and install them in your workspace.
