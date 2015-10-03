@@ -15,7 +15,7 @@ Use <code>pod search --help</code> for more information.
 The [CocoaPods homepage](https://cocoapods.org) offers a search field to look for CocoaPods by name, version, author, keywords, summary or dependencies.
 
 ##CocoaPod RSS Feed
-CocoaPods.org offers an RSS Feed to "never miss a pod again!" Subscribe to (https://feeds.cocoapods.org/new-pods.rss)[https://feeds.cocoapods.org/new-pods.rss]
+CocoaPods.org offers an RSS Feed to "never miss a pod again!" Subscribe to [https://feeds.cocoapods.org/new-pods.rss](https://feeds.cocoapods.org/new-pods.rss).
 
 ##Keep an eye out for Podspecs
 CocoaPods is fast becoming the standard method for Cocoa Dependency Management, so most popular libraries support CocoaPods. Look for a Podspec in the root directory of the library or a note about CocoaPod installation in the readme.
