@@ -4,6 +4,8 @@ Developers can create and distribute their own CocoaPods and distribute them in 
 
 Each CocoaPod requires a Podspec configuration and a license file. A Podspec is a Ruby document that describes details about a specific version of a CocoaPod, including where the source code should be downloaded from, what files to use, the build settings to apply, and *"other general metadata such as its name, version, and description"*.
 
+CocoaPods support both the Objective-C and Swift programming language, however the use of Swift is encouraged and will increase the [quality-index](https://guides.cocoapods.org/making/quality-indexes.html) of your Podspec if you distribute it publicly via the [trunk](https://github.com/CocoaPods/CocoaPods).
+
 ##Create a Podspec
 
 You can generate a Podspec by running the following command at the terminal:
@@ -54,7 +56,7 @@ Simply run the following command at the terminal:
 ...and follow the on-screen instructions. For more information about this process, see [https://guides.cocoapods.org/making/using-pod-lib-create.html](https://guides.cocoapods.org/making/using-pod-lib-create.html)
 
 ##Next Steps
-After you have created your Podspec and added your source files, make sure that your library is under version control and is using [Semantic Versioning](http://semver.org) to tag the commit of each release. That way consumers of your library can count on backwards compatibility when use the 'optimistic' operators in their Podfile.
+After you have created your Podspec and added your source files, make sure that your library is under version control and is using [Semantic Versioning](http://semver.org) to tag the commit of each release. That way consumers of your library can count on backwards compatibility when use the 'optimistic' operators (~>) in their Podfile.
 
 ![version-tags](images/version-tags.png)
 
