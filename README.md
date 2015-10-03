@@ -32,7 +32,7 @@ CocoaPods is a command-line tool but a basic graphical user-interface exists [as
 CocoaPods supports Git, SVN, and Mercurial source control however for the sake of this presentation, I will only be using Git.
 
 ##Consuming CocoaPods
-CocoaPods enables software developers to quickly and easily integrate 3rd-party libraries, called Pods for short. Follow these steps to get going with CocoaPods.  
+Assuming an already functional environment, it takes just minutes to get up and running with CocoaPods. CocoaPods enables software developers to quickly and easily integrate 3rd-party libraries, called Pods for short. Follow these steps to get going:  
 
 1. [Installing CocoaPods](install-cocoapods.md)  
 2. [Searching for pods](searching-for-cocoapods.md)  
@@ -40,7 +40,7 @@ CocoaPods enables software developers to quickly and easily integrate 3rd-party 
 4. [Challenges with CocoaPods](cocoapod-challenges.md)
 
 ##Producing CocoaPods
-Anyone can use CocoaPods to bundle and share their code with other developers both publicly and privately. Follow these steps to create your own CocoaPod.  
+Anyone can use CocoaPods to bundle and share their code with other developers both publicly and privately. Follow these steps to create your own CocoaPod:  
 
 1. [Creating a Cocoapod](creating-pods.md)  
 2. [CocoaPod Distribution](distributing-pods.md)  
