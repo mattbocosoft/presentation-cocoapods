@@ -1,6 +1,6 @@
 # Cocoapods Dependency Manager
 
-CococaPods is a dependency manager for Swift and Objective-C Cocoa projects. CocoaPods has become the standard for dependency management, and even [Google has embraced it](http://thenextweb.com/insider/2015/05/28/google-is-embracing-cocoapods-to-bring-its-services-to-ios-developers/) as their standard for [delivering their tools](https://cocoapods.org/pods/Google) to iOS developers. CocoaPods is a must-have tool for both iOS and OS X developers. There are currently (as of 3 October) more than 12,000 CocoaPods available for consumption.
+CococaPods is a dependency manager for Swift and Objective-C Cocoa projects. CocoaPods has become the standard for dependency management, and even [Google has embraced it](http://thenextweb.com/insider/2015/05/28/google-is-embracing-cocoapods-to-bring-its-services-to-ios-developers/) as their standard for [delivering their tools](https://cocoapods.org/pods/Google) to iOS developers. CocoaPods is a must-have tool for both iOS and OS X developers. There are currently (*as of October 2015*) more than 12,000 CocoaPods available for consumption.
 
 ##Advantages of CocoaPods
 
