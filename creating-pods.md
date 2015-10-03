@@ -10,7 +10,8 @@ You can generate a Podspec by running the following command at the terminal:
 
 ```pod spec create [Name-of-Pod]```
 
-This command will generate a Podspec stub (Name-of-Pod.podspec) which can be filled out with the specifics of your CocoaPod.
+This command will generate a Podspec stub (Name-of-Pod.podspec) which can be filled out with the specifics of your CocoaPod.  
+
 ```
 Pod::Spec.new do |s|
   s.name             = "MyPod"
@@ -53,7 +54,9 @@ Simply run the following command at the terminal:
 ...and follow the on-screen instructions. For more information about this process, see [https://guides.cocoapods.org/making/using-pod-lib-create.html](https://guides.cocoapods.org/making/using-pod-lib-create.html)
 
 ##Next Steps
-After you have created your Podspec and added your source files, make sure that your library is under version control and is using [Semantic Versioning](http://semver.org) so that consumers of your library can count on backwards compatibility when use the 'optimistic' operators in their Podfile.
+After you have created your Podspec and added your source files, make sure that your library is under version control and is using [Semantic Versioning](http://semver.org) to tag the commit of each release. That way consumers of your library can count on backwards compatibility when use the 'optimistic' operators in their Podfile.
+
+![version-tags](images/version-tags.png)
 
 ##Advanced Features
 To learn more about the advanced features of a Podspec see the official [Podspec syntax](http://guides.cocoapods.org/syntax/podspec.html).
