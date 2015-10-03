@@ -99,6 +99,10 @@ If you do chose to exclude your Pods from source control, simply add the 'Pods' 
 ##Updating Dependencies
 You can update your CocoaPod dependencies following the version rules specified in the Podfile by running ```pod update```. This command will check the master CocoaPod Podspec repository, and any custom Podspec respositories you may have specified, for any updates to your dependencies, download them, and install them in your workspace.
 
+If you'd like to update only a specific Pod without touching the others currently installed, then you can run:
+
+```$ pod update [POD_NAME]```
+
 ##Uninstalling Dependencies
 To remove a dependency, simply delete the associated line in the Podfile and run ```pod install``` again.
 
