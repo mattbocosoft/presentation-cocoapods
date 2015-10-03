@@ -70,6 +70,6 @@ Or if you are only using the private repository for a single project, then you c
 
 For more information about private Podspec repositories, check out [https://guides.cocoapods.org/making/private-cocoapods](https://guides.cocoapods.org/making/private-cocoapods)
 
-**Previous**: [CocoaPod Distribution](distributing-pods.md)  
+**Previous**: [Creating a Cocoapod](creating-pods.md)  
 **Next Up**: [Further reading](Further-reading-and-resources.md)  
 ...or return to the [homepage](README.md).
