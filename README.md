@@ -35,7 +35,7 @@ CocoaPods enables software developers to quickly and easily integrate 3rd-party 
 1. [Installing CocoaPods](install-cocoapods.md)  
 2. [Searching for pods](searching-for-cocoapods.md)  
 3. [Integrating pods](integrating-pods.md)  
-4. [Pain Points and their Remedies](pain-points.md)
+4. [Challenges with CocoaPods](cocoapod-challenges.md)
 
 ##Producing CocoaPods
 Anyone can use CocoaPods to bundle and share their code with other developers both publicly and privately. Follow these steps to create your own CocoaPod.  
