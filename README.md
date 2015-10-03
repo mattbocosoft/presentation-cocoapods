@@ -16,6 +16,8 @@ Without dependency management, developers have to find, download, integrate and 
   - Updating dependencies
   - Removing dependencies
 
+Other forms of dependency management, like git submodules, are specific to source control. Consuming CocoaPods on the other hands works well across different types of source control (Git, SVN, Mercurial) or not at all.
+
 ##Disadvantages of CocoaPods
 
 It's important to also be aware of what you are losing as a developer by using CocoaPods instead of its alternatives. In my experience, the biggest drawback of CocoaPods as a consumer is the loss of control over dependency content. If the dependency is a black-box library (*.a) instead of an open-source library, then the developer never had this control in the first place.
