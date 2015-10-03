@@ -106,7 +106,13 @@ From now on, you use the workspace file to open up your project, so close your p
 
 ![Xcode Pods Project](images/Xcode-Pods-Project.png)
 
+####Sub-projects
+
 CocoaPods allows you to use a project file with subprojects instead of a workspace file by specifying the ```--no-integrate``` flag when running the pod install command.
+
+####Target Build Settings
+
+When the new workspace/project is created, CocoaPods will base your project off of the Pods configuration file. Be careful when modifying the build settings to not completely override the CocoaPod configuration. CocoaPods documentation requests, "to add values to options from your project’s build settings, prepend the value list with $(inherited)." This is especially important with the library and header search paths and other linker flags.
 
 ##Dependency Source Control
 Depending on your needs, you can choose to checkin or exclude your Pod dependencies from source control. While CocoaPods officially recommends that you checkin your Pods to source control, there are advantages to both methods.
