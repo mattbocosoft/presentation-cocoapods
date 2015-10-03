@@ -52,6 +52,9 @@ Simply run the following command at the terminal:
 
 ...and follow the on-screen instructions. For more information about this process, see [https://guides.cocoapods.org/making/using-pod-lib-create.html](https://guides.cocoapods.org/making/using-pod-lib-create.html)
 
+##Next Steps
+After you have created your Podspec and added your source files, make sure that your library is under version control and is using [Semantic Versioning](http://semver.org) so that consumers of your library can count on backwards compatibility when use the 'optimistic' operators in their Podfile.
+
 ##Advanced Features
 To learn more about the advanced features of a Podspec see the official [Podspec syntax](http://guides.cocoapods.org/syntax/podspec.html).
 
