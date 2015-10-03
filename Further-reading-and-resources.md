@@ -1,5 +1,7 @@
 # Further Reading and Resources
 
+You can follow the [CocoaPods blog](https://blog.cocoapods.org) to get updates on CocoaPods.  
+
 ##Tutorials
 [Ray Wenderlich: Introduction to CocoaPods Tutorial](http://www.raywenderlich.com/64546/introduction-to-cocoapods-2)  
 [Ray Wenderlich: How to Use CocoaPods with Swift](http://www.raywenderlich.com/97014/use-cocoapods-with-swift)  
