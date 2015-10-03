@@ -5,6 +5,10 @@ CocoaPods should be installed using Ruby, which comes pre-installed on Mac OS X.
 
 ```sudo gem install cocoapods```  
 
+The command line should show something like this:  
+
+![install-cocoapods](images/install-cocoapods.png)  
+
 Next you need to setup the CocoaPods installation, which includes downloading a copy of the official public Podspec [trunk](https://github.com/CocoaPods/Specs) repository to your computer.
 
 ```pod setup``` 
@@ -12,13 +16,22 @@ Next you need to setup the CocoaPods installation, which includes downloading a 
 The repository now has over 12,000 Podspecs with more being added each day, so this process could take some time.
 
 ##Update
-CocoaPods is an open-source project in active-development and updates are frequently released. To make sure you are running the latest version of CocoaPods, you can update via Ruby Gems. When you are using CocoaPods, keep an eye out for green alerts on the command line alerting you of new updates.  
+CocoaPods is an open-source project in active-development and updates are frequently released. To make sure you are running the latest version of CocoaPods, you can update via Ruby Gems.  
 
 ```$ [sudo] gem update cocoapods```  
 
+When you are using CocoaPods, keep an eye out for messages on the command line alerting you of new updates.  
+
+> CocoaPods 0.39.0.beta.5 is available.  
+> To update use: `gem install cocoapods --pre`  
+> [!] This is a test version we'd love you to try.  
+  
+> For more information see http://blog.cocoapods.org  
+> and the CHANGELOG for this version http://git.io/BaH8pQ.  
+
 If you want to use a pre-release version of CocoaPods, then you can run this command:  
 
-```$ [sudo] gem install cocoapods --pre```  
+```$ [sudo] gem install cocoapods --pre```    
 
 ##Xcode Plugin
 If you prefer to interact with CocoaPods using a GUI instead of the terminal, there is an Xcode Plugin which adds a few common CocoaPods commands to a menu in Xcode. The plugin is open-source and [available on GitHub](https://github.com/kattrali/cocoapods-xcode-plugin).
