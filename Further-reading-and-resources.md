@@ -13,3 +13,5 @@
 
 ##Documentation
 [Cocoapods Official Guides](https://guides.cocoapods.org)
+
+Return to the [homepage](README.md)
