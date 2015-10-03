@@ -68,9 +68,21 @@ If you want to use the latest commit of a CocoaPod, you can use the :head flag.
 
 ```pod 'GoogleAnalytics', :head```
 
+####Referencing a Podspec
+
 If you want to use a library which doesn't include a Podspec, but someone else has created a Podspec for it, then you can reference the location of the Podspec:  
 
 ```pod '[PODNAME]', :podspec => 'https://example.com/[PODNAME].podspec'```
+
+####Build Configuration
+
+You can install CocoaPods per build configuration. For example, if you want to install PonyDebugger only on the debug configuration, then you can do this:  
+
+```pod 'PonyDebugger', :configurations => ['Debug']```
+
+This is a new but popular feature and may change without notice in the future.
+
+####Example
 
 Here is an example of how your Podfile might look if your project targets iOS 7 and needs to use two libraries; AFNetworking and NSDate+TimeAgo:  
 
