@@ -1,7 +1,7 @@
 #Install CocoaPods
 
 ##Install
-CocoaPods should be installed using Ruby, which comes pre-installed on Mac OS X. Run the following command at the terminal to install CocoaPods.  
+CocoaPods is a collection of Ruby gems, and thus should be installed using Ruby, which comes pre-installed on Mac OS X. Run the following command at the terminal to install CocoaPods.  
 
 ```sudo gem install cocoapods```  
 
