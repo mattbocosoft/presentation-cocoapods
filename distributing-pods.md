@@ -2,11 +2,15 @@
 
 Depending on who your audience is, there are several different methods to distribute your Pod to other developers and projects.
 
-##Tag your Repo
+##Getting ready for distribution
+
+There are a few steps to take before starting to distribute your Cocoapod.
+
+####Tag your Repo
 
 Make sure to version your library by tagging the appropriate commits with version numbers so that consumers can reference exactly which version of the library that they would like to use.  
 
-##Check for Errors
+####Check for Errors
 
 Before distributing your Pod, you need to check to make sure it doesn't have any errors. Indeed this step is mandatory if you are pushing to the public Pod trunk. There are two ways of doing this:
 
@@ -16,7 +20,7 @@ Before distributing your Pod, you need to check to make sure it doesn't have any
 ```$ pod lib lint```  
   This command accesses does not access the network in order to check for errors.  
 
-##Independent CocoaPod
+##Distribute as an independent CocoaPod
 
 If you do not wish to distribute your CocoaPod to a wide audience via a Podspec repository, you can use it as a standalone CocoaPod either locally or remotely.
 
@@ -30,7 +34,7 @@ In your project's Podfile, point to the local CocoaPod by simply referencing its
 
 ```pod '[PODNAME]', :git => 'https://github.com/[USERNAME]/[PODNAME].git'```
 
-##Podspec Repository
+##Distribute via a Podspec Repository
 
 Each version of a CocoaPod must have it's own Podspec. The Podspec repository hosting the Podspec will look follow this structure:  
 
