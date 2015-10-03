@@ -12,6 +12,21 @@ If you do not need to distribute your CocoaPod because you are working with it o
 
 The CocoaPods [trunk](https://guides.cocoapods.org/making/getting-setup-with-trunk) is a public git repository where developers can host their Podspecs for public consumption.  
 
+In order to push Pods to the trunk, developers must first sign-up with an account by registering a per-computer session-token with trunk.
+
+```$ pod trunk register name@address.com '[YOUR_NAME]' --description='Give your session some context'```
+
+When the library and Pod specification file is ready to be published, run lint on your pod to make sure its configured properly:
+
+```$ pod spec lint [NAME.podspec]```
+
+You cannot publish your pod if lint returns any warnings or errors. If you received none, then you can go ahead and deploy your pod to the public trunk:
+
+```$ pod trunk push [NAME.podspec]```
+
+Deploying will kick off a notification to online CocoaPod feeds to alert other users of the new Pod. E.g. CocoaDocs.org, @CocoaPodsFeed and [CocoaPods RSS Feed](https://feeds.cocoapods.org).
+
+For more information about distributing via the public trunk, see [https://guides.cocoapods.org/making/getting-setup-with-trunk](https://guides.cocoapods.org/making/getting-setup-with-trunk).
 
 ##Private
 
