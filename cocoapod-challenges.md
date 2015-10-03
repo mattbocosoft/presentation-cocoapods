@@ -28,6 +28,9 @@ When working on a library locally or from within the context of your project, yo
     ```pod '[POD_NAME]', :path => '[POD_NAME]'``` (By default, path is relative to project root)
 4. Run ```pod install``` again to update the changes.
 
+##Troubleshooting
+Check out the CocoaPods [troubleshooting page](https://guides.cocoapods.org/using/troubleshooting.html) to help with any errors you might run into during installation and usage.  
+
 **Previous**: [Integrating Pods](integrating-pods.md)  
 **Next Up**: [Creating CocoaPods](creating-pods.md)  
 ...or return to the [homepage](README.md).
