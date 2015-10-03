@@ -61,6 +61,10 @@ If you want to use the latest commit of a CocoaPod, you can use the :head flag.
 
 ```pod 'GoogleAnalytics', :head```
 
+If you want to use a library which doesn't include a Podspec, but someone else has created a Podspec for it, then you can reference the location of the Podspec:  
+
+```pod '[PODNAME]', :podspec => 'https://example.com/[PODNAME].podspec'```
+
 Here is an example of how your Podfile might look:
 
 ```
