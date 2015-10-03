@@ -1,4 +1,5 @@
-# Cocoapods Dependency Manager
+![cocoapods-logo](images/cocoapods-logo.png)
+# CocoaPods Dependency Manager
 
 CococaPods is a dependency manager for Swift and Objective-C Cocoa projects. CocoaPods is officially still in beta however it has already become the standard for dependency management, and even [Google has embraced it](http://thenextweb.com/insider/2015/05/28/google-is-embracing-cocoapods-to-bring-its-services-to-ios-developers/) as their standard for [delivering their tools](https://cocoapods.org/pods/Google) to iOS developers.  
 
