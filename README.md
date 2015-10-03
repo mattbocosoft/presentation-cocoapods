@@ -19,33 +19,7 @@ Without dependency management, developers have to find, download, integrate and 
   - Updating dependencies
   - Removing dependencies
 
-Other forms of dependency management, like git submodules, are specific to source control. Consuming CocoaPods on the other hands works well across different types of source control (Git, SVN, Mercurial) or not at all.
-
-##Disadvantages of CocoaPods
-
-It's important to also be aware of what you are losing as a developer by using CocoaPods instead of its alternatives. In my experience, the biggest drawback of CocoaPods as a consumer is the loss of control over dependency content. However, if the CocoaPod in question only bundled a black-box library (*.a) instead of an open-source library, then the developer never had this control in the first place.
-
-If you are the producer of source code that no one outside of your group will be using for the forseeable future, you may want to think twice about wrapping it in a CocoaPod at least until continuous active development has slowed down.
-
-####Modifying Pod Content within Context
-When there is a bug in a Pod, you can't just modify the Pod in context without a bit of work.  
-
-1. Find the CocoaPod on Github and fork your own version.
-2. Point your local Podfile to the latest commit on your new fork instead of the default CocoaPod trunk.
-    ```pod '[POD_NAME]', :git => 'https://github.com/[USERNAME]/[POD_NAME].git', :head```
-3. Run ```pod install``` again to update the changes
-
-Now you are able to make changes in your own fork of the repo and have them reflected in your consuming project. If you want the latest changes from the official CocoaPod, then you'll have to rebase your changes or send a pull-request to the author with your bug-fix.
-
-####Viewing Pod History
-
-When working on a library locally or from within the context of your project, you can view the entire history of that project. When you install a CocoaPod however, only the latest version of the code is fetched and integrated into your project. Like modifying pods, there is a way of remedying this with a bit of work.
-
-1. Clone or fork the CocoaPod dependency repo and pull it to your machine.
-2. Move the repo inside your project repo and add it as a git submodule.
-3. Point your local Podfile to the latest commit on your new fork instead of the default CocoaPod trunk.
-    ```pod '[POD_NAME]', :path => '[POD_NAME]'``` (By default, path is relative to project root)
-4. Run ```pod install``` again to update the changes.
+Other forms of dependency management, like git submodules, are specific to source control. Consuming CocoaPods on the other hands works well across different types of source control (Git, SVN, Mercurial) or not at all.  
 
 ##Development Environment
 
@@ -61,6 +35,7 @@ CocoaPods enables software developers to quickly and easily integrate 3rd-party 
 1. [Installing CocoaPods](install-cocoapods.md)  
 2. [Searching for pods](searching-for-cocoapods.md)  
 3. [Integrating pods](integrating-pods.md)  
+4. [Pain Points and their Remedies](pain-points.md)
 
 ##Producing CocoaPods
 Anyone can use CocoaPods to bundle and share their code with other developers both publicly and privately. Follow these steps to create your own CocoaPod.  
@@ -68,6 +43,7 @@ Anyone can use CocoaPods to bundle and share their code with other developers bo
 1. [Creating a Cocoapod](creating-pods.md)  
 2. [CocoaPod Distribution](distributing-pods.md)  
 
+If you are both the producer and the consumer of a library of source code, then wrapping your library in a Pod adds  overhead that should be justified. If others are using your library or contributing, then that is justification enough, but if no one outside of your group will be using for the forseeable future, you may want to wait before wrapping it in a CocoaPod at least until continuous active development has slowed down.  
 
 Check out these [resources and tutorials for further reading](Further-reading-and-resources.md).  
 
