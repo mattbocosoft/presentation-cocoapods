@@ -114,6 +114,24 @@ CocoaPods allows you to use a project file with subprojects instead of a workspa
 
 When the new workspace/project is created, CocoaPods will base your project off of the Pods configuration file. Be careful when modifying the build settings to not completely override the CocoaPod configuration. CocoaPods documentation requests, "to add values to options from your project’s build settings, prepend the value list with $(inherited)." This is especially important with the library and header search paths and other linker flags.
 
+####Behind the Scenes
+
+Here is how the CocoaPods documentation explains what is happening behind the scenes:  
+
+```
+1. Creates or updates a workspace.  
+2. Adds your project to the workspace if needed.  
+3. Adds the CocoaPods static library project to the workspace if needed.  
+4. Adds libPods.a to: targets => build phases => link with libraries.  
+5. Adds the CocoaPods Xcode configuration file to your app’s project.  
+6. Changes your app's target configurations to be based on CocoaPods's.  
+7. Adds a build phase to copy resources from any pods you installed to your app bundle. i.e. a ‘Script build phase’ after all other build phases with the following:  
+  * Shell: /bin/sh
+  * Script: ${SRCROOT}/Pods/PodsResources.sh
+```
+> Source: [https://guides.cocoapods.org/using/using-cocoapods.html](https://guides.cocoapods.org/using/using-cocoapods.html)
+
+
 ##Dependency Source Control
 Depending on your needs, you can choose to checkin or exclude your Pod dependencies from source control. While CocoaPods officially recommends that you checkin your Pods to source control, there are advantages to both methods.
 
