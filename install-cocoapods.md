@@ -26,7 +26,7 @@ If you prefer to interact with CocoaPods using a GUI instead of the terminal, th
 ![XcodePlugin](https://github.com/kattrali/cocoadocs-xcode-plugin/raw/master/menu.png)
 
 ##CocoaPods App
-Development has recently begun () on a stand-alone app which will eventually provide full-feature support, but currently only provides very basic commands similar to the Xcode Plugin.
+Development has recently begun on a stand-alone app which will eventually provide full-feature support, but currently only provides very basic commands similar to the Xcode Plugin. Check out the website here [https://github.com/CocoaPods/CocoaPods-app](https://github.com/CocoaPods/CocoaPods-app).
 
 **Next Up**: [Searching for pods](searching-for-cocoapods.md)  
 ...or return to the [homepage](README.md).
