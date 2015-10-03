@@ -46,6 +46,7 @@ end
 
 A relatively new command "pod lib create" simplifies the pod creation process significantly by creating a demo app within which to develop your library, and optionally pre-integrating a test framework ([Quick/Nimble](https://github.com/Quick/Quick)) and view based testing ([FBSnapshotTestCase](https://github.com/facebook/ios-snapshot-test-case) from Facebook).
 
+##Advanced Features
 To learn more about the advanced features of a Podspec see the official [Podspec syntax](http://guides.cocoapods.org/syntax/podspec.html).
 
 **Previous**: [Integrating pods](integrating-pods.md)  
