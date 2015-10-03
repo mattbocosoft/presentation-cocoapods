@@ -37,7 +37,7 @@ end
 
 Next you can begin adding project dependencies.
 
-##Project Dependencies
+##Adding Dependencies
 Once you've [found](searching-for-cocoapods.md) a CocoaPod you'd like to integrate, add it to the Podfile using its name.
 
 *Integrate the latest version of RestKit*  
