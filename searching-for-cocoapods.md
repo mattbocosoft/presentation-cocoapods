@@ -1,6 +1,6 @@
 #Searching for CocoaPods
 
-There are  (*as of 30 September 2015*) more than 11,000 CocoaPods publicly available. Each CocoaPod is registered via a Podspec, which is a specification that describes a version of a CocoaPod. Here is the official repository of Podspecs: https://github.com/CocoaPods/Specs/tree/master/Specs
+There are  (*as of 30 September 2015*) more than 12,000 CocoaPods publicly available. Each CocoaPod is registered via a Podspec, which is a specification that describes a version of a CocoaPod. Here is the official repository of Podspecs: https://github.com/CocoaPods/Specs/tree/master/Specs
 
 Below are a variety of options to help search for and discover CocoaPods.
 
