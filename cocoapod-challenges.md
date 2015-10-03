@@ -1,4 +1,4 @@
-#Pain Points and their Remedies
+#Challenges of CocoaPods
 
 It's important to also be aware of what you are losing as a developer by using CocoaPods instead of its alternatives. In my experience, the biggest drawback of CocoaPods as a consumer is the loss of control over dependency content. Of course if the CocoaPod in question only serves to wrap a black-box library (*.a) instead of an open-source library, then the consumer never had this control in the first place.
 
