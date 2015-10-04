@@ -7,8 +7,10 @@ Below are a variety of options to help you search for and discover new CocoaPods
 ##CocoaPods Homepage
 The [CocoaPods homepage](https://cocoapods.org) offers a search field to look for CocoaPods by name, version, author, keywords, summary or dependencies. Search results are filtered by the CocoaPods [quality index](https://guides.cocoapods.org/making/quality-indexes) and feature a beautiful new summary interface including a quick way to copy the dependency configuration to the Podfile.
 
-####Quality Index
-To help users decide which dependencies to choose, CocoaPods automatically generates a quality index. All Pods start with 50 "points" which is then adjusted based on a variety of factors including: 
+![cocoapods-homepage-search](images/cocoapods-homepage-search.png)
+
+####Quality Index ![quality-index](images/quality-index-small.png)
+To help users decide which dependencies to choose, CocoaPods automatically generates a quality index, represented by an icon to the right of the expanded CocoaPod name. The more filled in the icon is, the higher the quality index. All Pods start with 50 "points" which is then adjusted based on a variety of factors including:  
 
 * Popularity  
 * Documentation  
