@@ -1,18 +1,31 @@
 #Searching for CocoaPods
 
-There are (*as of October 2015*) more than 12,000 CocoaPods publicly available. Each CocoaPod is registered via a Podspec, which is a specification that describes a version of a CocoaPod. Here is the official repository of Podspecs: https://github.com/CocoaPods/Specs/tree/master/Specs
+As of October 2015, there are more than 12,000 CocoaPods published on the CocoaPods trunk. Each CocoaPod is registered via a Podspec, which is a specification that describes a version of a CocoaPod. Here is the official repository of Podspecs: [https://github.com/CocoaPods/Specs](https://github.com/CocoaPods/Specs)
 
-Below are a variety of options to help search for and discover CocoaPods.
+Below are a variety of options to help you search for and discover new CocoaPods.
+
+##CocoaPods Homepage
+The [CocoaPods homepage](https://cocoapods.org) offers a search field to look for CocoaPods by name, version, author, keywords, summary or dependencies. Search results are filtered by the CocoaPods [quality index](https://guides.cocoapods.org/making/quality-indexes) and feature a beautiful new summary interface including a quick way to copy the dependency configuration to the Podfile.
+
+####Quality Index
+To help users decide which dependencies to choose, CocoaPods automatically generates a quality index based on a variety of factors including:  
+* Popularity  
+* Documentation  
+* README Complexity  
+* CHANGELOG  
+* Language Choice (Swift is preferred)  
+* Licensing Issues  
+* Code Calls (smaller more composable libraries are preferred)  
+* Ownership gives preference to official APIs over unofficial  
+
+For more information about the quality index, go here [https://guides.cocoapods.org/making/quality-indexes](https://guides.cocoapods.org/making/quality-indexes)  
 
 ##"pod search" command
 In the terminal, type <code>'pod search \<query\>'</code> where \<query\> represents the keyword(s) you are searching for.
 
 Use <code>pod search --help</code> for more information.
 
-![pod-search-command](images/pod-search-command.png)
-
-##CocoaPods Homepage
-The [CocoaPods homepage](https://cocoapods.org) offers a search field to look for CocoaPods by name, version, author, keywords, summary or dependencies.
+![pod-search-command](images/pod-search-command.png)  
 
 ##CocoaPod RSS Feed
 CocoaPods.org offers an RSS Feed to "never miss a pod again!" Subscribe to [https://feeds.cocoapods.org/new-pods.rss](https://feeds.cocoapods.org/new-pods.rss).
