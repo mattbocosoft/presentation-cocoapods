@@ -11,8 +11,6 @@ CocoaPods is a must-have tool for both iOS and OS X developers. As of October 20
 
 CocoaPods handles many workflows automatically that developers would normally need to perform manually, including:  
 
-Without dependency management, developers have to find, download, integrate and manage their dependencies manually. This includes adding the right files in the right places, linker flags, and any dependencies of those libraries. In the future if the developer no longer needs that library, they'll have a tougher time tearing down and remembering, for example, which linker flags can be removed without breaking their other libraries.
-
 * Fetching dependency source code
 * Recursively resolve and merge dependencies
 * Integrate source code, linker flags, library paths, header paths, etc.
@@ -21,15 +19,17 @@ Without dependency management, developers have to find, download, integrate and 
   - Updating dependencies
   - Removing dependencies
 
+Without dependency management, developers have to find, download, integrate and manage their dependencies manually. This includes adding the right files in the right places, linker flags, and any dependencies of those libraries. In the future if the developer no longer needs that library, they'll have a tougher time tearing down and remembering, for example, which linker flags can be removed without breaking their other libraries.  
+
 Other forms of dependency management, like git submodules, are specific to source control. Consuming CocoaPods on the other hands works well across different types of source control (Git, SVN, Mercurial) or not at all.  
 
 ##Development Environment
 
-Cococapods is used exclusively by Cocoa developers (iOS and Mac apps) therefore it can only be used on the Mac OS X operating system and with [Xcode](https://en.wikipedia.org/wiki/Xcode) Integrated Development Environment ([IDE](https://en.wikipedia.org/wiki/Integrated_development_environment)).
+Cococapods is used exclusively by Cocoa developers (iOS and Mac apps) therefore it can only be used on the Mac OS X operating system with the [Xcode](https://en.wikipedia.org/wiki/Xcode) Integrated Development Environment ([IDE](https://en.wikipedia.org/wiki/Integrated_development_environment)).
 
 CocoaPods is a command-line tool but a basic graphical user-interface exists [as an Xcode Plugin](https://github.com/kattrali/cocoapods-xcode-plugin).
 
-CocoaPods supports Git, SVN, and Mercurial source control however for the sake of this presentation, I will only be using Git.
+CocoaPods supports Git, SVN, and Mercurial source control. This presentation assumes that the reader is running Mac OS X, Xcode and using Git.
 
 ##Consuming CocoaPods
 Assuming an already functional environment, it takes just minutes to get up and running with CocoaPods. CocoaPods enables software developers to quickly and easily integrate 3rd-party libraries, called Pods for short. Follow these steps to get going:  
