@@ -37,7 +37,8 @@ Assuming an already functional environment, it takes just minutes to get up and 
 1. [Installing CocoaPods](install-cocoapods.md)  
 2. [Searching for pods](searching-for-cocoapods.md)  
 3. [Integrating pods](integrating-pods.md)  
-4. [Challenges with CocoaPods](cocoapod-challenges.md)
+4. [Challenges with CocoaPods](cocoapod-challenges.md)  
+5. [Removing CocoaPods](removing-cocoapods.md)  
 
 ##Producing CocoaPods
 Anyone can use CocoaPods to bundle and share their code with other developers both publicly and privately. Follow these steps to create your own CocoaPod:  
