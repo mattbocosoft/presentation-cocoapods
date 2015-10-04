@@ -3,7 +3,7 @@
 
 CococaPods is a dependency manager for Swift and Objective-C Cocoa projects. CocoaPods is officially still in beta however it has already become the standard for dependency management for Cocoa, and even [Google has embraced it](http://thenextweb.com/insider/2015/05/28/google-is-embracing-cocoapods-to-bring-its-services-to-ios-developers/) as their standard for [delivering their tools](https://cocoapods.org/pods/Google) to iOS developers.  
 
-CocoaPods is a free open-source tool created by a community of developers who "get pleasure from working on something that can improve [their] small piece of the universe, [without expecting any financial gains](https://blog.cocoapods.org/Why-we-dont-accept-donations/)."
+CocoaPods is a free open-source tool created by a community of developers who "get pleasure from working on something that can improve [their] small piece of the universe, [without expecting any financial gains](https://blog.cocoapods.org/Why-we-dont-accept-donations/)." [According to Wikipedia](https://en.wikipedia.org/wiki/CocoaPods), Eloy Durán and Fabio Pelosin, inspired by RubyGems and Bundler, started work on CocoaPods in late 2011 and publicly released the first version on September 1, 2011.
 
 CocoaPods is a must-have tool for both iOS and OS X developers. As of October 2015, there are more than 12,000 CocoaPods available for use.  
 
