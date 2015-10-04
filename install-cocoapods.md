@@ -42,7 +42,7 @@ If you prefer to interact with CocoaPods using a GUI instead of the terminal, th
 Development has recently begun on a stand-alone app which will eventually provide full-feature support, but currently only provides very basic commands similar to the Xcode Plugin. This will allow developers to install CocoaPods without Ruby Gems or Homebrew. Check out the website here [https://github.com/CocoaPods/CocoaPods-app](https://github.com/CocoaPods/CocoaPods-app).  
 
 ##JetBrains' AppCode
-AppCode is an IDE alternative to Xcode which comes with seamless integration with CocoaPods.  
+This presentation assumes that the reader use Xcode, however AppCode from JetBrains is an IDE alternative to Xcode which comes with seamless integration with CocoaPods.  
 
 **Next Up**: [Searching for pods](searching-for-cocoapods.md)  
 ...or return to the [homepage](README.md).
