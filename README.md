@@ -27,7 +27,7 @@ Other forms of dependency management, like git submodules, are specific to sourc
 
 Cococapods is used exclusively by Cocoa developers (iOS and Mac apps) therefore it can only be used on the Mac OS X operating system with the [Xcode](https://en.wikipedia.org/wiki/Xcode) Integrated Development Environment ([IDE](https://en.wikipedia.org/wiki/Integrated_development_environment)).
 
-CocoaPods is a command-line tool but there are several available graphic user-interface that offer basic functionality including [an Xcode Plugin](https://github.com/kattrali/cocoapods-xcode-plugin) and the official [CocoaPods app](https://github.com/CocoaPods/CocoaPods-app) currently under development.
+CocoaPods is primarily a command-line tool but there are several available graphical user-interfaces that offer basic functionality including [an Xcode Plugin](https://github.com/kattrali/cocoapods-xcode-plugin) and the official [CocoaPods app](https://github.com/CocoaPods/CocoaPods-app) currently under development.
 
 CocoaPods supports Git, SVN, and Mercurial source control. This presentation assumes that the reader is running Mac OS X, Xcode and using Git.
 
