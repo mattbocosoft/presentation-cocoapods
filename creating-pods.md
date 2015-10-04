@@ -63,6 +63,6 @@ After you have created your Podspec and added your source files, make sure that 
 ##Advanced Features
 To learn more about the advanced features of a Podspec see the official [Podspec syntax](http://guides.cocoapods.org/syntax/podspec.html).
 
-**Previous**: [Challenges with Cocoapods](cocoapod-challenges.md)  
+**Previous**: [Removing CocoaPods](removing-cocoapods.md)  
 **Next Up**: [CocoaPod Distribution](distributing-pods.md)  
 ...or return to the [homepage](README.md).
