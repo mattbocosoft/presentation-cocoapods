@@ -32,5 +32,5 @@ When working on a library locally or from within the context of your project, yo
 Check out the CocoaPods [troubleshooting page](https://guides.cocoapods.org/using/troubleshooting.html) to help with any errors you might run into during installation and usage.  
 
 **Previous**: [Integrating Pods](integrating-pods.md)  
-**Next Up**: [Creating CocoaPods](creating-pods.md)  
+**Next Up**: [Removing Cocoapods](removing-cocoapods.md)  
 ...or return to the [homepage](README.md).
