@@ -20,3 +20,7 @@ If you specified the "--no-integrate" flag when first installing your Pod depend
   * "Copy Pods Resources section"  
 
 Alternatively, there is an open-source utility (not available as a CocoaPod) that can be used at your own risk. That library is available here, [cocoapods-deintegrate](https://github.com/kylef/cocoapods-deintegrate).
+
+**Previous**: [Challenges with CocoaPods](cocoapod-challenges.md)  
+**Next Up**: [Creating CocoaPods](creating-pods.md)  
+...or return to the [homepage](README.md).
