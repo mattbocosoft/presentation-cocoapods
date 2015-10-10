@@ -1,3 +1,9 @@
+**CSCI 5828: Foundations of Software Engineering**  
+*Fall 2015, Professor Kenneth Anderson*
+
+Student: **Matthew Thomas**
+Presentation 1
+
 ![cocoapods-logo](images/cocoapods-logo.png)
 # CocoaPods Dependency Manager
 
